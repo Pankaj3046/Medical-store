@@ -395,7 +395,12 @@
 		.social-menu ul li:nth-child(5) a:hover {
 		    background-color: #F44336;
 		}
-		
+				@media screen and ( max-width:800px )
+{
+#text{
+    font-size: 12vw;
+	left: 10px;
+}
 	
 	</style>
 </head>
@@ -410,7 +415,7 @@
 		<img src="moon.png" id="moon">
 		<img src="mountain.png" id="mountain">
 		<img src="road.png" id="road">
-		<h3 id="text">  DEVELOPER</h3>
+		<div id="text">  DEVELOPER</div>
 	</section>
 	<script type="text/javascript">
 		let bg = document.getElementById("bg");
